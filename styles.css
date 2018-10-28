@@ -1,0 +1,181 @@
+body{background-color: black;
+}
+
+
+h1{
+color: white;
+font-size:47px;
+text-align: center;
+font-family: baskerville;
+font-weight: 100
+}
+
+
+.galleryContainer{
+  display: flex;
+  justify-content:center;
+  width: 100%;
+}
+
+.gallery {
+    margin: 60px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: caslon;
+}
+
+
+
+
+
+.boxblack{
+  height: 300px;
+  color: black;
+}
+
+.startersContainer{
+  height: 1500px;
+  background-color:#99CC99;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1{
+height: 250px;
+}
+
+.starters{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  text-align: center;
+  font-family: caslon;
+    width:100%;
+  }
+
+.starters1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  text-align: center;
+  font-family: caslon;
+  width:100%;
+}
+
+.box{
+height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+.boxblack{
+  height: 300px;
+  color: black;
+}
+
+.mainsContainer{
+  height: 1500px;
+  background-color:#black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2{
+height: 250px;
+}
+
+.mains{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  text-align: center;
+  font-family: caslon;
+    width:100%;
+  }
+
+.mains1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  text-align: center;
+  font-family: caslon;
+  width:100%;
+}
+
+.box{
+height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+.dessertContainer{
+  color:white;
+  text-align: center;
+  font-family: futura-pt;
+}
+
+.drinksContainer{
+  color:white;
+  text-align: center;
+  font-family: futura-pt;
+}
+
+.footer{
+  display: flex;
+  justify-content:center;
+  color: white;
+  font-family: baskerville;
+}
+
+
+
+
+
+
+/* For mobile */
+@media (max-width: 600px) {
+.galleryContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
